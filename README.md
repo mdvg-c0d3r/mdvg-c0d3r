@@ -152,8 +152,9 @@ public final class SoftwareEngineer {
 ```
 while (alive) {
     eat();
-    sleep();
+    workout();
     code();
+    sleep();
     repeat();
 }
 ```
