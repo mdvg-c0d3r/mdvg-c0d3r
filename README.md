@@ -153,6 +153,7 @@ while (alive) {
     workout();
     eat();
     code();
+    travel();
     sleep();
     repeat();
 }
