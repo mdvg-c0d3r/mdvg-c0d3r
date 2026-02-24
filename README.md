@@ -148,8 +148,6 @@ public final class SoftwareEngineer {
 
 ---
 
-<div align="center">
-
 ```java
 while (alive) {
     workout();
@@ -160,6 +158,7 @@ while (alive) {
 }
 ```
 
+<div align="center">
 <sub>Profile views since you got here: curiosity is a feature, not a bug</sub>
 
 ![](https://komarev.com/ghpvc/?username=mdvg-c0d3r&color=blueviolet&style=flat-square&label=Profile+Views)
