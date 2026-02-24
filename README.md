@@ -19,6 +19,7 @@
 [![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring](https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/)
 [![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Apache Kafka](https://img.shields.io/badge/Kafka-%23231F20.svg?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
@@ -39,7 +40,7 @@ public final class SoftwareEngineer {
     private final String name = "mdvg-c0d3r";
     private final String role = "Senior Software Engineer";
     private final int yearsOfExperience = 11;
-    private final String[] languages = { "Java", "Go", "SQL", "JavaScript" };
+    private final String[] languages = { "Java", "Go", "TypeScript", "SQL", "JavaScript" };
     private final String philosophy = "Write code that the next developer will thank you for.";
 
     public String[] dailyRoutine() {
@@ -69,25 +70,25 @@ public final class SoftwareEngineer {
 <td width="50%" valign="top">
 
 ### Backend & Architecture
-- **Java** — My native tongue. 11 years and counting
-- **Spring Boot / Spring Cloud** — Battle-tested microservice stacks
-- **Microservices** — Design, decomposition, orchestration & choreography
-- **Distributed Systems** — CAP theorem isn't just theory to me
-- **Event-Driven Architecture** — Kafka, RabbitMQ, async all the things
-- **API Design** — REST, gRPC, GraphQL — the right tool for the right job
-- **Go** — When you need speed and simplicity
+- **Java** - My native tongue. 11 years and counting
+- **Spring Boot / Spring Cloud** - Battle-tested microservice stacks
+- **Microservices** - Design, decomposition, orchestration & choreography
+- **Distributed Systems** - CAP theorem isn't just theory to me
+- **Event-Driven Architecture** - Kafka, RabbitMQ, async all the things
+- **API Design** - REST, gRPC, GraphQL - the right tool for the right job
+- **Go** - When you need speed and simplicity
 
 </td>
 <td width="50%" valign="top">
 
 ### Practices & Infrastructure
-- **TDD** — Red. Green. Refactor. Non-negotiable
-- **Pair Programming** — Two brains > one brain. Always
-- **SQL Databases** — PostgreSQL, MySQL — normalized until it hurts, then denormalize
-- **NoSQL** — MongoDB, Redis, Elasticsearch — schema-free doesn't mean design-free
-- **Message Queues** — Kafka, RabbitMQ, SQS — decoupling is an art form
-- **Containers & Orchestration** — Docker, Kubernetes, Helm
-- **CI/CD** — If it's not automated, it doesn't exist
+- **TDD** - Red. Green. Refactor. Non-negotiable
+- **Pair Programming** - Two brains > one brain. Always
+- **SQL Databases** - PostgreSQL, MySQL - normalized until it hurts, then denormalize
+- **NoSQL** - MongoDB, Redis, Elasticsearch - schema-free doesn't mean design-free
+- **Message Queues** - Kafka, RabbitMQ, SQS - decoupling is an art form
+- **Containers & Orchestration** - Docker, Kubernetes, Helm
+- **CI/CD** - If it's not automated, it doesn't exist
 
 </td>
 </tr>
@@ -103,10 +104,10 @@ public final class SoftwareEngineer {
 
 | Project | Tech | Description |
 |---------|------|-------------|
-| [**verifactu-go**](https://github.com/mdvg-c0d3r/verifactu-go) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Go library for Spanish AEAT VeriFACTU invoice registration — XML generation, SHA-256 hash chain, SOAP client, certificate handling |
-| [**tennis-kata**](https://github.com/mdvg-c0d3r/tennis-kata) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | Classic Tennis scoring kata — TDD in action |
-| [**fizzbuzz-kata**](https://github.com/mdvg-c0d3r/fizzbuzz-kata) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | The timeless FizzBuzz — because fundamentals matter |
-| [**password-validator-kata**](https://github.com/mdvg-c0d3r/password-validator-kata) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | Validation kata — clean rules, clean tests |
+| [**verifactu-go**](https://github.com/mdvg-c0d3r/verifactu-go) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Go library for Spanish AEAT VeriFACTU invoice registration - XML generation, SHA-256 hash chain, SOAP client, certificate handling |
+| [**tennis-kata**](https://github.com/mdvg-c0d3r/tennis-kata) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | Classic Tennis scoring kata - TDD in action |
+| [**fizzbuzz-kata**](https://github.com/mdvg-c0d3r/fizzbuzz-kata) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | The timeless FizzBuzz - because fundamentals matter |
+| [**password-validator-kata**](https://github.com/mdvg-c0d3r/password-validator-kata) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | Validation kata - clean rules, clean tests |
 
 </details>
 
@@ -119,16 +120,16 @@ public final class SoftwareEngineer {
 │                                                                 │
 │   "Any fool can write code that a computer can understand.      │
 │    Good programmers write code that humans can understand."      │
-│                                          — Martin Fowler        │
+│                                           - Martin Fowler        │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-- **Tests are documentation** — If your tests don't explain the behavior, rewrite them
-- **Simplicity over cleverness** — The best code is the code you don't have to debug
-- **Ownership** — Ship it, monitor it, own it
-- **Continuous learning** — The day you stop learning is the day you start becoming legacy code
-- **Community** — Knowledge shared is knowledge multiplied
+- **Tests are documentation** - If your tests don't explain the behavior, rewrite them
+- **Simplicity over cleverness** - The best code is the code you don't have to debug
+- **Ownership** - Ship it, monitor it, own it
+- **Continuous learning** - The day you stop learning is the day you start becoming legacy code
+- **Community** - Knowledge shared is knowledge multiplied
 
 ---
 
