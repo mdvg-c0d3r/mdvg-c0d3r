@@ -116,13 +116,13 @@ public final class SoftwareEngineer {
 ## `// Things I believe in`
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   "Any fool can write code that a computer can understand.      │
-│    Good programmers write code that humans can understand."      │
-│                                           - Martin Fowler        │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│                                                                │
+│  "Any fool can write code that a computer can understand.      │
+│   Good programmers write code that humans can understand."     │
+│                                         - Martin Fowler        │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
 ```
 
 - **Tests are documentation** - If your tests don't explain the behavior, rewrite them
