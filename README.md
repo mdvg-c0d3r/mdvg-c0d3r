@@ -133,7 +133,7 @@ public final class SoftwareEngineer {
 
 ---
 
-## `netstat -an | grep LISTEN`
+## `curl -X POST /connect`
 
 <div align="center">
 
